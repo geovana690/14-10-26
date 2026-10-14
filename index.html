@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d1c">
+  <meta name="description" content="Descubra como usar a inteligência artificial com equilíbrio, autonomia e pensamento crítico.">
+  <title>IA em Equilíbrio | Quiz Interativo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#inicio">✦ IA em Equilíbrio</a>
+    <nav>
+      <a href="#sobre">O projeto</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#impacto">Impacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <span class="tag">TECNOLOGIA • CONSCIÊNCIA • FUTURO</span>
+      <h1>A inteligência artificial deve <span>ajudar você,</span> não pensar por você.</h1>
+      <p>
+        A IA pode transformar o aprendizado. Mas será que estamos
+        usando essa tecnologia sem perder nossa autonomia?
+        Explore o projeto e descubra.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#quiz">Começar o quiz ↗</a>
+        <a class="button secondary" href="#sobre">Conhecer o projeto</a>
+      </div>
+      <div class="hero-note">
+        <span>✦</span> Pense por conta própria. Use a tecnologia a seu favor.
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="section-heading">
+        <span class="tag">01 / SOBRE O PROJETO</span>
+        <h2>Usar IA é fácil.<br><span>Usar com consciência é essencial.</span></h2>
+        <p>Este projeto convida você a refletir sobre os efeitos do uso excessivo da inteligência artificial.</p>
+      </div>
+
+      <div class="cards">
+        <article class="info-card">
+          <span class="card-icon">🎯</span>
+          <h3>Objetivo</h3>
+          <p>Promover o uso equilibrado da IA, valorizando o raciocínio próprio e a autonomia.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon">🧠</span>
+          <h3>Pensamento crítico</h3>
+          <p>Entender por que devemos questionar, verificar informações e construir nossas próprias ideias.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-icon">⚖️</span>
+          <h3>Equilíbrio</h3>
+          <p>Aprender a aproveitar os benefícios da tecnologia sem depender dela para tudo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="section-heading">
+        <span class="tag">02 / TESTE SEUS CONHECIMENTOS</span>
+        <h2>Você usa a IA com <span>consciência?</span></h2>
+        <p>Responda a seis perguntas e reflita sobre seus hábitos digitais.</p>
+      </div>
+
+      <div class="quiz-box">
+        <div id="quiz-content">
+          <div class="quiz-top">
+            <span id="question-number">PERGUNTA 01 DE 06</span>
+            <span id="progress-label">0% concluído</span>
+          </div>
+          <div class="progress-track">
+            <div id="progress-bar"></div>
+          </div>
+          <h3 id="question">Preparado para começar?</h3>
+          <p id="question-description">Escolha a alternativa que melhor representa uma atitude consciente.</p>
+          <div id="answers" class="answers">
+            <button class="answer" data-answer="0">Começar o desafio →</button>
+          </div>
+          <p id="feedback" aria-live="polite"></p>
+          <button id="next-button" class="button primary next-button" hidden>Próxima pergunta →</button>
+        </div>
+
+        <div id="result" hidden>
+          <span class="result-icon">✦</span>
+          <h3>Quiz concluído!</h3>
+          <p id="score"></p>
+          <p id="result-message"></p>
+          <button id="restart-button" class="button primary">Refazer o quiz ↻</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="desenvolvimento">
+      <div class="section-heading">
+        <span class="tag">03 / COMO FOI DESENVOLVIDO</span>
+        <h2>Da ideia à <span>experiência digital.</span></h2>
+      </div>
+      <div class="steps">
+        <article><span>01</span><div><h3>Pesquisa e reflexão</h3><p>Definição do tema e dos riscos do uso excessivo da IA que seriam abordados.</p></div></article>
+        <article><span>02</span><div><h3>Construção do site</h3><p>Uso de HTML para a estrutura, CSS para o visual e JavaScript para a interatividade.</p></div></article>
+        <article><span>03</span><div><h3>Criação do quiz</h3><p>Organização das perguntas, alternativas, explicações e resultado final.</p></div></article>
+        <article><span>04</span><div><h3>Publicação</h3><p>Disponibilização do projeto na internet com o GitHub Pages.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section reflection" id="impacto">
+      <span class="tag">04 / REFLEXÃO FINAL</span>
+      <h2>A tecnologia deve ampliar nossas capacidades, <span>não substituir quem somos.</span></h2>
+      <p>
+        O problema não está simplesmente em usar inteligência artificial,
+        mas em deixar de questionar, aprender e tomar decisões por conta própria.
+        A IA pode ser uma grande aliada quando utilizada com responsabilidade.
+      </p>
+      <div class="audience-question">
+        <span>💬 PERGUNTA PARA A PLATEIA</span>
+        <h3>Se a IA fizesse todas as suas tarefas, o que você deixaria de aprender?</h3>
+        <p>Pense por alguns segundos e compartilhe sua opinião com a turma.</p>
+      </div>
+      <a class="button primary" href="#quiz">Experimentar o quiz novamente ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>✦ IA em Equilíbrio</p>
+    <p>Projeto educativo sobre tecnologia, autonomia e pensamento crítico.</p>
+    <a href="#inicio">Voltar ao início ↑</a>
+  </footer>
+</body>
+</html>
